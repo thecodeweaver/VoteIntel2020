@@ -18,11 +18,6 @@
     </style>
 </head>
 
-<?php
-    # Some PHP to get Heroku to host this lol
-    print "VoteIntel2020: Made With <3 by TheCodeWeaver";
-?>
-
 <body>
     <div class="jumbotron text-center">
         <h1>Vote Intel 2020</h1>
@@ -43,7 +38,7 @@
             </ul>
           </div>
           <div class="col-sm-4">
-            <h3><a href="https://projects.fivethirtyeight.com/polls/">General Election Poll Results</a></h3>
+            <h3><a href="https://www.270towin.com/">Interactive Election Map</a></h3>
           </div>
             <div class="col-sm-4">
                 <h3>Voting Resources</h3>
@@ -52,9 +47,13 @@
         </div>
       </div>
 
+    <?php
+    echo <<<END
     <footer class="container-fluid text-center">
         </a>
         <p>Made With Love By <a href="https://thecodeweaver.github.io/" title="TheCodeWeaver's Website">TheCodeWeaver</a></p>
     </footer>
+    END;
+    ?>
 </body>
 </html>
