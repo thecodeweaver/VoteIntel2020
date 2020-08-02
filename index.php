@@ -42,7 +42,7 @@
           </div>
             <div class="col-sm-4">
                 <h3>Voting Resources</h3>
-                <p>Currently TODO</p>
+                <a href="https://vote.gov/">Register to vote here</a>
             </div>
         </div>
       </div>
