@@ -20,7 +20,7 @@
 
 <?php
     # Some PHP to get Heroku to host this lol
-    echo "VoteIntel2020: Made With <3 by TheCodeWeaver";
+    print "VoteIntel2020: Made With <3 by TheCodeWeaver";
 ?>
 
 <body>
